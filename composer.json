@@ -1,0 +1,14 @@
+{
+    "require": {
+        "symfony/console": "^3.2",
+        "symfony/filesystem": "^3.2",
+        "symfony/process": "^3.2",
+        "symfony/var-dumper": "^3.2",
+        "vlucas/phpdotenv": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Command\\":        "src/"
+        }
+    }
+}
