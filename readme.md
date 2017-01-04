@@ -6,8 +6,19 @@ This assumes you have composer installed and on your path. If not: [getcomposer.
 
 1. `$ git clone git@github.com:tammyd/php-console-command-starter-pack.git [command-repo-name]`
 2. `$ cd [command-repo-name]`
-3. `$ composer install`
-4. `$ ./console.php example "Hello World!"`
+3. `$ cp .env.dist .env`
+4. `$ composer install`
+5. `$ ./console.php example "Hello World!"`
+
+## Setup your own git repo!
+
+Start from scratch! 
+
+1. `$ pwd  #making sure your on the correct directory!!`
+2. `$ rm -rf .git`
+3. `$ git init`
+4. `$ git add .`
+5. `$ git commit -m "Initial commit for [command-repo-name]" `
 
 ## To add a new Command
 
